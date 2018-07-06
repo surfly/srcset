@@ -27,3 +27,5 @@ MANIFEST
 
 js/
 .vscode/
+htmlcov/
+srcset/.coverage
