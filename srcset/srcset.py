@@ -38,6 +38,7 @@ class SRCSet(object):
 
             # Step 5
             if pos >= len(self.raw):
+                # The only one place where we leave the loop
                 self.candidates = candidates
                 return candidates
 
@@ -184,8 +185,6 @@ class SRCSet(object):
                     "x": density,
                     "h": h
                 })
-        self.candidates = candidates
-        return candidates
 
     def stringify(self):
         """
